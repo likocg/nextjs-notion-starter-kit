@@ -11,7 +11,7 @@ export default siteConfig({
   // basic site info (required)
   name: 'Jesus.com.vc',
   domain: 'Jesus.com.vc',
-  author: 'Travis Fischer',
+  author: 'Eliel "Jesus" Guilhen',
 
   // open graph metadata (optional)
   description: 'Eliel "Jesus" Guilhen',
