@@ -49,7 +49,7 @@ export default siteConfig({
   pageUrlOverrides: {
 '/diario-de-bordo': '0080653fb8c74845a4fe42a8be628674',
     
-}
+},
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
