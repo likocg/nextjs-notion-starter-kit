@@ -67,7 +67,8 @@ export default siteConfig({
    {
      title: 'Logbook',
      pageId: '0080653fb8c74845a4fe42a8be628674'
-   },
+   }
+   ]
                           
   //   {
   //     title: 'About',
