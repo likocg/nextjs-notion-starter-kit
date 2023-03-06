@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'Eliel "Jesus" Guilhen',
 
   // open graph metadata (optional)
-  description: 'Content Hub and Portfolio from Eliel "Jesus" Guilhen',
+  description: 'Content Hub and Portfolio of Eliel "Jesus" Guilhen',
 
   // social usernames (optional)
   twitter: 'liko',
@@ -46,13 +46,29 @@ export default siteConfig({
   //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
-  pageUrlOverrides: null,
+  pageUrlOverrides: {
+'/diario-de-bordo': '0080653fb8c74845a4fe42a8be628674',
+    
+}
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
+  // navigationStyle: 'default'
+   navigationStyle: 'custom',
+   navigationLinks: [
+   {
+     title: 'Portfolio',
+     pageId: '8a41e6e5b8ce41df9c181cfa90de41a4'
+   },                      
+   {
+     title: 'Now',
+     pageId: '6657458c6fa84c888eb952e957c64498'
+   },
+   {
+     title: 'Logbook',
+     pageId: '0080653fb8c74845a4fe42a8be628674'
+   },
+                          
   //   {
   //     title: 'About',
   //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
