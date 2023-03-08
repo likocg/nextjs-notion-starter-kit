@@ -179,15 +179,15 @@
   background: #e5f2e8;
 }
 
-@media (max-width: 1360px) {
+@media (max-width: 2000px) {
   .githubCorner {
     display: none;
   }
 }
 
-/*.githubCorner:hover .octoArm {
+.githubCorner:hover .octoArm {
   animation: octocat-wave 560ms ease-in-out;
-}*/
+}
 
 @keyframes octocat-wave {
   0%,
