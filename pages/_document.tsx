@@ -3,6 +3,8 @@ import Document, { Head, Html, Main, NextScript } from 'next/document'
 
 import { IconContext } from '@react-icons/all-files'
 
+import Analytics from 'components/Analytics'
+
 export default class MyDocument extends Document {
   render() {
     return (
