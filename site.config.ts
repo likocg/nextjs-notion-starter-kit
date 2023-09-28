@@ -60,14 +60,6 @@ export default siteConfig({
      title: 'Portfolio',
      pageId: '8a41e6e5b8ce41df9c181cfa90de41a4'
    },                      
-   {
-     title: 'Now',
-     pageId: '6657458c6fa84c888eb952e957c64498'
-   },
-   {
-     title: 'Logbook',
-     pageId: '0080653fb8c74845a4fe42a8be628674'
-   }
    ]
                           
   //   {
